@@ -28,12 +28,10 @@ export default function Footer() {
       window.location.href = href;
       return;
     }
-    
-    // Sprawdzamy czy jestemy na stronie gwnej
+
     const isHomePage = window.location.pathname === '/' || window.location.pathname === '';
     console.log('Footer: Is home page:', isHomePage);
-    
-    // Jeli href zaczyna si od # i jestemy na stronie gwnej, to scroll do sekcji
+
     if (href.startsWith("#") && isHomePage) {
       console.log('Footer: Scrolling to section on home page:', href);
       const el = document.querySelector(href);
@@ -46,7 +44,7 @@ export default function Footer() {
       return;
     }
     
-    // Jeli href zaczyna si od # ale nie jesteemy na stronie gwnej, przenosz do strony gwnej z sekcj
+ 
     if (href.startsWith("#") && !isHomePage) {
       console.log('Footer: Navigating to home page with section:', href);
       window.location.href = '/' + href;

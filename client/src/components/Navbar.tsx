@@ -39,11 +39,9 @@ export default function Navbar() {
       return;
     }
     
-    // Sprawdzamy czy jestemy na stronie gwnej
     const isHomePage = window.location.pathname === '/' || window.location.pathname === '';
     console.log('Is home page:', isHomePage);
     
-    // Jeli href zaczyna si od # i jestemy na stronie gwnej, to scroll do sekcji
     if (href.startsWith("#") && isHomePage) {
       console.log('Scrolling to section on home page:', href);
       const el = document.querySelector(href);

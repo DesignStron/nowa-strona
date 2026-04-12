@@ -10,22 +10,22 @@ const costPoints = [
   {
     icon: <Calculator size={24} />,
     title: "Indywidualna wycena",
-    description: "Kady projekt jest unikalny - koszt zaley od zoonoci, liczby podstron i funkcjonalnoci. Nie ma dwóch takich samych stron!"
+    description: "Każdy projekt jest unikalny - koszt zależy od złożoności, liczby podstron i funkcjonalności. Nie ma dwóch takich samych stron!"
   },
   {
     icon: <TrendingUp size={24} />,
-    title: "Ju od 1000 z",
-    description: "Ceny zaczynaj si ju od 1000 zotych. Doklny koszt ustalamy po bezpatnej konsultacji."
+    title: "Już od 1000 zł",
+    description: "Ceny zaczynają się już od 1000 złotych. Dokładny koszt ustalamy po bezpłatnej konsultacji."
   },
   {
     icon: <Clock size={24} />,
     title: "Elastyczne opcje",
-    description: "Dopasowujemy rozwizania do Twojego budetu. Moliwe ratalne patnoci i rne terminy rozlicze."
+    description: "Dopasowujemy rozwiązania do Twojego budżetu. Możliwe ratalne płatności i różne terminy rozliczeń."
   },
   {
     icon: <Award size={24} />,
     title: "Brak ukrytych kosztów",
-    description: "Wszystko jasno opisane w umowie. Wiesz dokadnie, za co pacisz - zero niespodzianek."
+    description: "Wszystko jasno opisane w umowie. Wiesz dokładnie, za co płacisz - zero niespodzianek."
   }
 ];
 
@@ -180,8 +180,8 @@ export default function CostsSection() {
             className="text-lg max-w-3xl mx-auto"
             style={{ color: "rgba(255,255,255,0.5)", fontFamily: "'Outfit', sans-serif" }}
           >
-            Przejrzyste zasady, brak ukrytych kosztów i elastyczne opcje dopasowane do Twojego budetu. 
-            Kaady projekt wyceniamy indywidualnie, bo wierzmy w uczciwe i przejrzyste warunki.
+            Przejrzyste zasady, brak ukrytych kosztów i elastyczne opcje dopasowane do Twojego budżetu. 
+            Każdy projekt wyceniamy indywidualnie, bo wierzymy w uczciwe i przejrzyste warunki.
           </motion.p>
         </div>
 
@@ -210,14 +210,14 @@ export default function CostsSection() {
               className="text-2xl font-bold text-white mb-4"
               style={{ fontFamily: "'Syne', sans-serif" }}
             >
-              Bezpatna wycena w 15 minut
+              Bezpłatna wycena w 15 minut
             </h3>
             <p
               className="text-base mb-6"
               style={{ color: "rgba(255,255,255,0.6)", fontFamily: "'Outfit', sans-serif" }}
             >
-              Skontaktuj si z nami i otrzymaj dokadny kosztorys dopasowany do Twoich potrzeb. 
-              Zero zobowiza, czysta informacja.
+              Skontaktuj się z nami i otrzymaj dokładny kosztorys dopasowany do Twoich potrzeb. 
+              Zero zobowiązań, czysta informacja.
             </p>
             <a
               href="tel:+48884679933"
@@ -229,7 +229,7 @@ export default function CostsSection() {
               }}
             >
               <Calculator size={20} />
-              Zobacz wycen
+              Zobacz wycenę
             </a>
           </div>
         </motion.div>

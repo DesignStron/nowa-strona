@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "Czy wystawiacie faktury VAT?",
-    a: "Tak, oczywiście. Jestemy zarejestrowaną firmą i wystawiamy faktury VAT dla wszystkich klientów. Każdego projektu towarzyszy profesjonalna dokumentacja księgowa. Faktury mogą być wystawiane z różnymi terminami płatności, dopasowanymi do Twoich potrzeb - standardowo 7 dni, ale możliwe są też inne ustalenia.",
+    a: "Tak, oczywiście. Jesteśmy zarejestrowaną firmą i wystawiamy faktury VAT dla wszystkich klientów. Każdego projektu towarzyszy profesjonalna dokumentacja księgowa. Faktury mogą być wystawiane z różnymi terminami płatności, dopasowanymi do Twoich potrzeb - standardowo 7 dni, ale możliwe są też inne ustalenia.",
   },
 ];
 
