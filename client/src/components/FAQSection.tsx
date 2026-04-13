@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "Czy wystawiacie faktury VAT?",
-    a: "Tak, jesteemy zarejestrowan¹ firm¹ i wystawiamy faktury VAT dla wszystkich klientów. Standardowy termin p³atno¶ci to 7 dni, ale mo¿emy ustaliæ inne warunki dopasowane do Twoich potrzeb.",
+    a: "Tak, jesteśmy zarerejstrowaną firmą i wystawiamy faktury VAT dla wszystkich klientów. Standardowy termin płatności to 7 dni, ale możemy ustalić inne warunki dopasowane do Twoich potrzeb.",
   },
 ];
 
