@@ -243,9 +243,9 @@ export default function HeroSection() {
           className="text-base sm:text-lg max-w-xl mb-10 leading-relaxed"
           style={{ color: "rgba(255,255,255,0.6)", fontFamily: "'Outfit', sans-serif" }}
         >
-          Tworzymy nowoczesne strony internetowe oparte o twarde dane. Badamy Twoją branżę,
-          projektujemy unikalny wygląd i dostarczamy kod, który działa — bez szablonów,
-          bez kompromisów.
+          Projektujemy i kodujemy szybkie strony dla firm. Zanim ruszymy z wdrożeniem,
+          analizujemy ofertę, klientów i konkurencję, żeby Twoja strona prowadziła prosto do
+          kontaktu i sprzedaży.
         </motion.p>
 
         {/* CTA Buttons */}

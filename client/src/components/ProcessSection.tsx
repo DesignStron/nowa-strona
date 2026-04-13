@@ -11,44 +11,44 @@ const steps = [
   {
     number: "01",
     icon: <MessageSquare size={24} />,
-    title: "Wstępna rozmowa",
+    title: "Audyt i cele",
     description:
-      "Badamy Twoje cele, grupę docelową i specyfikę branży. Szukamy wąskich gardeł w Twojej obecnej sprzedaży. Rozmowa bez żadnych zobowiązań — zupełnie za darmo.",
+      "Przeprowadzamy krótką analizę obecnej sytuacji, słuchamy o Twoich celach biznesowych i identyfikujemy punkty styku z klientami. Spotkanie bez żadnych kosztów.",
   },
   {
     number: "02",
     icon: <Target size={24} />,
-    title: "Budowa strategii",
+    title: "Planowanie architektury",
     description:
-      "Przekuwamy research branży w plan realizujący Twoje cele biznesowe. Analizujemy nawyki użytkowników i tworzymy mapę konwersji dopasowaną do Twojego rynku.",
+      "Na podstawie ustaleń tworzymy strukturę strony, ścieżki użytkownika i listę funkcjonalności. Ustalamy priorytety i harmonogram prac.",
   },
   {
     number: "03",
     icon: <Figma size={24} />,
-    title: "Projektowanie",
+    title: "Wizualizacja",
     description:
-      "Designer tworzy unikalny wygląd Twojej marki. Każdy element — od kolorów po układ — służy jednemu celowi: przekonaniu odwiedzającego do działania.",
+      "Przygotowujemy mockupy i interaktywny prototyp. Dopracowujemy identyfikację wizualną, typografię i układy, aby strona była czytelna i zachęcająca.",
   },
   {
     number: "04",
     icon: <Code size={24} />,
-    title: "Programowanie",
+    title: "Implementacja",
     description:
-      "Piszemy autorski kod od zera. Żadnych szablonów, żadnych ciężkich wtyczek. Strona jest szybka, bezpieczna i zoptymalizowana pod SEO od pierwszej linii kodu.",
+      "Kodujemy frontend i backend, konfigurujemy system CMS, integrujemy z narzędziami marketingowymi. Dbamy o szybkość ładowania i responsywność.",
   },
   {
     number: "05",
     icon: <Rocket size={24} />,
-    title: "Wdrożenie",
+    title: "Start i optymalizacja",
     description:
-      "Testujemy na wszystkich urządzeniach i przeglądarkach. Po Twojej akceptacji publikujemy stronę i konfigurujemy analitykę, by od razu śledzić wyniki.",
+      "Uruchamiamy stronę na docelowym serwerze, konfigurujemy SSL, analitykę i podstawowe SEO. Przeprowadzamy testy poprawności i wydajności.",
   },
   {
     number: "06",
     icon: <HeartHandshake size={24} />,
-    title: "Opieka po wdrożeniu",
+    title: "Wsparcie i rozwój",
     description:
-      "Nie zostawiamy Cię samego. Monitorujemy stronę, wprowadzamy poprawki i rozwijamy ją razem z Twoim biznesem. Jesteś w dobrych rękach na każdym etapie.",
+      "Zapewniamy techniczny monitoring, regularne kopie zapasowe i wsparcie przy aktualizacjach. Jesteśmy gotowi do rozbudowy funkcjonalności wraz z rozwojem Twojej firmy.",
   },
 ];
 
@@ -297,9 +297,9 @@ export default function ProcessSection() {
             className="text-4xl lg:text-5xl font-bold text-white"
             style={{ fontFamily: "'Syne', sans-serif" }}
           >
-            Jak{" "}
-            <span style={{ color: "#a855f7" }}>budujemy</span>{" "}
-            Twoją stronę
+            Nasz{" "}
+            <span style={{ color: "#a855f7" }}>proces</span>{" "}
+            realizacji
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -308,7 +308,7 @@ export default function ProcessSection() {
             className="mt-4 text-base lg:text-lg max-w-xl mx-auto"
             style={{ color: "rgba(255,255,255,0.5)", fontFamily: "'Outfit', sans-serif" }}
           >
-            Sześć kroków. Pełna transparentność. Ty decydujesz na każdym etapie.
+            Przejrzysty harmonogram i regularne konsultacje. Razem tworzymy stronę idealną dla Twojego biznesu.
           </motion.p>
         </div>
 

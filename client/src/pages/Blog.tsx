@@ -146,7 +146,7 @@ export default function Blog() {
               className="text-lg max-w-2xl mx-auto"
               style={{ color: "rgba(255,255,255,0.5)", fontFamily: "'Outfit', sans-serif" }}
             >
-              Artykuły o web designie, technologii i strategii cyfrowej. Dowiedz się, jak tworzyć strony, które sprzedają.
+              Artykuły i poradniki o tworzeniu stron, SEO i konwersji. Dowiedz się, jak zbudować witrynę, która przyciąga klientów i generuje przychody.
             </p>
           </motion.div>
         </div>

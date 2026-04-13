@@ -50,10 +50,10 @@ export default function CTASection() {
           className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
           style={{ fontFamily: "'Syne', sans-serif" }}
         >
-          Zacznij od darmowej strategii,{" "}
+          Najpierw plan działania,{" "}
           <br className="hidden sm:block" />
-          zanim zapłacisz za{" "}
-          <span style={{ color: "#a855f7" }}>stronę.</span>
+          dopiero potem{" "}
+          <span style={{ color: "#a855f7" }}>wdrożenie.</span>
         </motion.h2>
 
         <motion.p
@@ -63,9 +63,9 @@ export default function CTASection() {
           className="text-base lg:text-lg max-w-2xl mx-auto mb-10 leading-relaxed"
           style={{ color: "rgba(255,255,255,0.6)", fontFamily: "'Outfit', sans-serif" }}
         >
-          Nie kupuj strony w ciemno. Zaczynamy od bezpłatnej analizy Twojej branży i wspólnego
-          ustalenia strategii sprzedaży. Otrzymasz gotowy plan działania zupełnie za darmo —
-          płacisz dopiero wtedy, gdy zaakceptujesz naszą wizję i cele.
+          Zamiast zaczynać od grafiki, zaczynamy od celu. Robimy krótki audyt Twojej oferty,
+          ruchu i konkurencji, a potem układamy strukturę strony pod leady i sprzedaż.
+          Dopiero gdy zaakceptujesz plan, przechodzimy do projektu i kodu.
         </motion.p>
 
         <motion.div

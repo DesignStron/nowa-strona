@@ -11,7 +11,7 @@ const testimonials = [
     role: "Właściciel, FitPro Studio",
     avatar: "MW",
     color: "#7c3aed",
-    text: "Oszczędzam mnóstwo czasu na wiadomościach prywatnych. Wysyłam link do strony, gdzie klient ma wszystko przejrzyście opisane. Bardzo sprawna realizacja i świetny kontakt przez cały czas.",
+    text: "Oszczędzam teraz kilkadziesiąt godzin tygodniowo. Klienci sami znajdują wszystkie informacje na stronie, więc nie muszę powtarzać tego samego w wiadomościach. Fachowe wsparcie na każdym etapie.",
     stars: 5,
   },
   {
@@ -19,7 +19,7 @@ const testimonials = [
     role: "Trener Personalny",
     avatar: "JK",
     color: "#06b6d4",
-    text: "Zespół pomógł nam uporządkować ofertę. Zyskaliśmy czytelną stronę, która realnie ułatwia nowym osobom zapisy na zajęcia. Wyniki przerosły nasze oczekiwania.",
+    text: "Dzięki nowej stronie zapisy na treningi ruszyły. Wszystko jest jasno opisane, a klienci sami rezerwują terminy. Widać realny wzrost zainteresowania od pierwszego dnia.",
     stars: 5,
   },
   {
@@ -27,7 +27,7 @@ const testimonials = [
     role: "CEO, TopGlobal Logistics",
     avatar: "AP",
     color: "#a855f7",
-    text: "Cenię ich za to, jak uważnie słuchają klienta. Proces projektowy był bardzo transparentny, a efekt końcowy to strona, którą z dumą prezentuję kontrahentom.",
+    text: "Doceniam profesjonalizm i cierpliwość. Każdy etap był konsultowany, a finalny produkt wygląda solidnie i działa bez zarzutu. Kontrahenci odnotowali lepsze wrażenie.",
     stars: 5,
   },
   {
@@ -35,7 +35,7 @@ const testimonials = [
     role: "Mechanik, AutoSerwis Nowak",
     avatar: "TN",
     color: "#7c3aed",
-    text: "Świetny support na każdym etapie projektu. Od startu nowej strony zauważyłem stabilny wzrost wartościowych zapytań od klientów. Polecam każdemu!",
+    text: "Szybka reakcji na pytania i błyskawiczne poprawki. Strona przyciąga więcej klientów, którzy dzwonią prosto z formularza. Zdecydowanie polecam.",
     stars: 5,
   },
   {
@@ -43,7 +43,7 @@ const testimonials = [
     role: "Coach Online",
     avatar: "KZ",
     color: "#06b6d4",
-    text: "Moja społeczność w końcu trafia na profesjonalną platformę. Konwersja odczuwalnie wzrosła, a proces płatności jest intuicyjny dla użytkowników.",
+    text: "Od teraz moje kursy i konsultacje sprzedają się automatycznie. Płatności działają bez problemów, a klienci chwalą wygodę. Zwiększyłem przychody bez dodatkowej pracy.",
     stars: 5,
   },
   {

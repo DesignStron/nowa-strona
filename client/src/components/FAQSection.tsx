@@ -8,36 +8,36 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    q: "Ile kosztuje strona internetowa?",
-    a: "Każdy projekt jest indywidualny i wyceniany na podstawie konkretnych potrzeb. Koszt zależy od wielu czynników: złożoności, liczby podstron, funkcjonalności, integracji. Ceny zaczynają się już od 1000 złotych, ale dokładny koszt ustalamy po bezpłatnej konsultacji, w której poznajemy Twoje cele i wymagania. Jesteśmy elastyczni i dopasowujemy rozwiązania do budżetu.",
+    q: "Od czego zaczynamy współpracę?",
+    a: "Zadzwoń lub napisz do nas. Umówimy się na krótką rozmowę (15-20 minut), podczas której poznamy Twoje potrzeby i przedstawimy wstępne propozycje. Bez zobowiązań.",
   },
   {
-    q: "Ile trwa budowa strony?",
-    a: "Przewidywany czas realizacji to około tygodnia od dostarczenia materiałów przez klienta plus czas na poprawki. W praktyce najczęściej jest to do 2 tygodni od momentu uzyskania wszystkich potrzebnych informacji. Zawsze ustalamy konkretny harmonogram i trzymamy się terminów, aby wiedzieć na czym staniesz.",
+    q: "Czy strona będzie działać na telefonie?",
+    a: "Oczywiście. Każda strona jest w pełni responsywna — wygląda i działa świetnie na smartfonach, tabletach i komputerach. Testujemy na różnych urządzeniach.",
   },
   {
-    q: "Dlaczego nie używacie WordPressa?",
-    a: "WordPress to świetne narzędzie dla blogów, ale dla stron nastawionych na sprzedaż i wydajność mamy lepsze rozwiązania. Piszemy autorski kod w React, co daje nam pełną kontrolę nad szybkością, bezpieczeństwem i wyglądem. Wynik PageSpeed 95+ jest normą, nie wyjątkiem.",
+    q: "Co z bezpieczeństwem strony?",
+    a: "Dbamy o bezpieczeństwo na każdym etapie — SSL, regularne aktualizacje, ochrona przed atakami. Strony są stabilne i rzadko wymagają interwencji technicznej.",
   },
   {
-    q: "Mam już stronę. Czy można ją przebudować?",
-    a: "Oczywiście! Przebudowa starej strony to jeden z naszych najczęstszych projektów. Zaczynamy od audytu obecnej strony, analizujemy co działa, a co nie, i budujemy nową wersję, która zachowuje pozycje SEO i jednocześnie znacząco poprawia konwersję.",
+    q: "Czy modernizujecie istniejące strony?",
+    a: "Tak, często odświeżamy stare witryny. Przenosimy treści, poprawiamy UX, zachowując pozycje SEO. Możemy też zintegrować nowe funkcjonalności z istniejącymi systemami.",
   },
   {
-    q: "Nie wiem dokładnie, czego potrzebuję. Pomóżcie?",
-    a: "To najczęstsza sytuacja i właśnie dlatego oferujemy bezpłatną konsultację strategiczną. Zadajemy właściwe pytania, analizujemy Twój biznes i proponujemy konkretne rozwiązanie. Nie musisz znać się na stronach – od tego jesteśmy my.",
+    q: "Nie mam pomysłu na stronę. Co robić?",
+    a: "To normalne. Zaczniemy od Twoich celów biznesowych. Przeanalizujemy konkurencję i zaproponujemy rozwiązanie krok po kroku. Pokażemy przykłady i wspólnie ustalimy kierunek.",
   },
   {
-    q: "Co dostaję po zakończeniu projektu?",
-    a: "Otrzymujesz w pełni działającą stronę, dostęp do panelu administracyjnego (jeśli dotyczy), dokumentację, szkolenie z obsługi, skonfigurowaną analitykę Google. Jesteś właścicielem wszystkich plików i kodu. Istnieje też możliwość zakupu hostingu u nas – wtedy odpowiadamy też za domenę i jej odnowienie. Zapewniamy pełen techniczny serwis.",
+    q: "Co otrzymam po projekcie?",
+    a: "Działającą stronę, dostęp do panelu zarządzania, dokumentację techniczną, szkolenie z obsługi. Przekazujemy pełne prawa do kodu. Opcjonalnie hosting i opiekę techniczną.",
   },
   {
-    q: "Czy mogę wprowadzać zmiany po wdrożeniu?",
-    a: "Tak. Oferujemy pakiety opieki miesięcznej, w ramach których możesz zgłaszać zmiany, aktualizacje treści i nowe funkcjonalności. Możesz też zamówić jednorazowe modyfikacje. Dodatkowo możemy stworzyć panel admina, gdzie użytkownicy mogą sami zmieniać niektóre treści – np. aktualności, ceny, dane kontaktowe. Nigdy nie zostawiamy klientów bez wsparcia.",
+    q: "Czy sam mogę edytować treści?",
+    a: "Tak, integrujemy łatwy w obsłudze CMS. Zmienisz teksty, dodasz zdjęcia, publikujesz newsy. W razie potrzeby służymy pomocą — mamy pakiety wsparcia od 300 zł/miesiąc.",
   },
   {
     q: "Czy wystawiacie faktury VAT?",
-    a: "Tak, oczywiście. Jesteśmy zarejestrowaną firmą i wystawiamy faktury VAT dla wszystkich klientów. Każdego projektu towarzyszy profesjonalna dokumentacja księgowa. Faktury mogą być wystawiane z różnymi terminami płatności, dopasowanymi do Twoich potrzeb - standardowo 7 dni, ale możliwe są też inne ustalenia.",
+    a: "Tak, jesteemy zarejestrowan¹ firm¹ i wystawiamy faktury VAT dla wszystkich klientów. Standardowy termin p³atno¶ci to 7 dni, ale mo¿emy ustaliæ inne warunki dopasowane do Twoich potrzeb.",
   },
 ];
 

@@ -11,38 +11,38 @@ const features = [
   {
     number: "01",
     icon: <Zap size={22} className="text-purple-400" />,
-    title: "Strona, która ładuje się błyskawicznie",
+    title: "Szybkość działania",
     description:
-      "Eliminujemy WordPress i ciężkie wtyczki na rzecz autorskiego kodu. Twoja strona będzie najszybsza w branży — Google to nagradza wyższą pozycją, a klienci nie uciekają do konkurencji.",
-    stat: "98+",
-    statLabel: "Śr. wynik wydajności",
+      "Projektujemy z myślą o wydajności. Strony ładują się poniżej 2 sekund, co przekłada się na lepsze pozycje w Google i wyższą konwersję użytkowników.",
+    stat: "<2s",
+    statLabel: "Czas ładowania",
   },
   {
     number: "02",
     icon: <Code2 size={22} className="text-purple-400" />,
-    title: "Zero szablonów — 100% unikalności",
+    title: "Nowoczesne technologie",
     description:
-      "Każda strona powstaje od zera, dopasowana do Twojej marki. Szablony sprawiają, że wyglądasz jak każdy. My sprawiamy, że wyróżniasz się i zapadasz w pamięć.",
-    stat: "100%",
-    statLabel: "Autorski kod",
+      "Używamy React i Next.js, co zapewnia skalowalność i łatwość rozbudowy. Twoja strona będzie działać sprawnie przez lata i bez problemów integrować się z nowymi narzędziami.",
+    stat: "React",
+    statLabel: "Technologia",
   },
   {
     number: "03",
     icon: <Users size={22} className="text-purple-400" />,
-    title: "Cały zespół pod jednym dachem",
+    title: "Kompleksowa obsługa",
     description:
-      "Nie musisz szukać i koordynować przypadkowych freelancerów. Masz do dyspozycji zgrany zespół — programistę, stratega i designera — który działa wspólnie od pierwszego szkicu.",
-    stat: "3",
-    statLabel: "Ekspertów do każdego projektu",
+      "Zajmujemy się wszystkim — od projektu graficznego po kodowanie i wdrożenie. Nie musisz szukać dodatkowych specjalistów, my zapewniamy pełen zakres usług.",
+    stat: "360°",
+    statLabel: "Zakres usług",
   },
   {
     number: "04",
     icon: <Palette size={22} className="text-purple-400" />,
-    title: "Strategia sprzedaży w cenie",
+    title: "Optymalizacja konwersji",
     description:
-      "Zanim zaczniesz płacić, otrzymujesz darmowy plan działania. Analizujemy Twoją branżę, konkurencję i grupę docelową, by strona nie tylko wyglądała dobrze, ale realnie sprzedawała.",
-    stat: "0 zł",
-    statLabel: "Koszt wstępnej strategii",
+      "Każdy element projektu jest przemyślany pod kątem sprzedaży. Od układu strony po kolor przycisku — wszystko ma wspierać Twoje cele biznesowe.",
+    stat: "CRO",
+    statLabel: "Fokus na sprzedaż",
   },
 ];
 
