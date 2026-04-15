@@ -4,6 +4,7 @@
  */
 import { motion } from "framer-motion";
 import { Mail, Phone, ArrowUp } from "lucide-react";
+import CookieConsent from "./CookieConsent";
 
 const navLinks = [
   { label: "O nas", href: "#o-nas" },
@@ -155,30 +156,28 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Services */}
+          {/* Legal */}
           <div>
             <h4
               className="text-sm font-bold text-white mb-4 uppercase tracking-wider"
               style={{ fontFamily: "'Syne', sans-serif" }}
             >
-              Usługi
+              Prawne
             </h4>
             <div className="flex flex-col gap-2">
               {[
-                "Strony firmowe",
-                "Sklepy internetowe",
-                "Landing page",
-                "Optymalizacja SEO",
-                "Opieka & Utrzymanie",
-                "Kampanie Google Ads",
-              ].map((service) => (
-                <span
-                  key={service}
-                  className="text-sm"
-                  style={{ color: "rgba(255,255,255,0.4)", fontFamily: "'Outfit', sans-serif" }}
+                { label: "Regulamin", href: "/regulamin" },
+                { label: "Polityka prywatności", href: "/polityka-prywatnosci" },
+                { label: "Polityka cookies", href: "/polityka-cookies" },
+              ].map((link) => (
+                <button
+                  key={link.href}
+                  onClick={() => handleNavClick(link.href)}
+                  className="text-left text-sm hover:text-purple-400 transition-colors"
+                  style={{ color: "rgba(255,255,255,0.45)", fontFamily: "'Outfit', sans-serif" }}
                 >
-                  {service}
-                </span>
+                  {link.label}
+                </button>
               ))}
             </div>
           </div>
@@ -195,30 +194,9 @@ export default function Footer() {
             className="text-xs"
             style={{ color: "rgba(255,255,255,0.25)", fontFamily: "'Outfit', sans-serif" }}
           >
-            © {new Date().getFullYear()} DesignStron.pl — Wszelkie prawa zastrzeżone.
+            {new Date().getFullYear()} DesignStron.pl — Wszelkie prawa zastrzeżone.
           </p>
           <div className="flex items-center gap-6 flex-wrap">
-            <a
-              href="/polityka-prywatnosci"
-              className="text-xs hover:text-purple-400 transition-colors"
-              style={{ color: "rgba(255,255,255,0.25)", fontFamily: "'Outfit', sans-serif" }}
-            >
-              Polityka prywatności
-            </a>
-            <a
-              href="/regulamin"
-              className="text-xs hover:text-purple-400 transition-colors"
-              style={{ color: "rgba(255,255,255,0.25)", fontFamily: "'Outfit', sans-serif" }}
-            >
-              Regulamin
-            </a>
-            <a
-              href="/polityka-cookies"
-              className="text-xs hover:text-purple-400 transition-colors"
-              style={{ color: "rgba(255,255,255,0.25)", fontFamily: "'Outfit', sans-serif" }}
-            >
-              Polityka Cookies
-            </a>
             <button
               onClick={scrollTop}
               className="flex items-center gap-1.5 text-xs hover:text-purple-400 transition-colors"
@@ -230,6 +208,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+      {/* Cookie Consent Banner */}
+      <CookieConsent />
     </footer>
   );
 }

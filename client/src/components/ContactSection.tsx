@@ -8,6 +8,8 @@ import { Mail, Phone, Clock, Send, CheckCircle } from "lucide-react";
 
 export default function ContactSection() {
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -18,10 +20,34 @@ export default function ContactSection() {
   const titleRef = useRef(null);
   const titleInView = useInView(titleRef, { once: true, margin: "-80px" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate form submission
-    setSent(true);
+
+    if (sending) return;
+    setError(null);
+    setSending(true);
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+
+      const data = await res.json().catch(() => null);
+
+      if (!res.ok) {
+        setError(data?.error || "Nie udało się wysłać wiadomości. Spróbuj ponownie.");
+        return;
+      }
+
+      setSent(true);
+      setForm({ name: "", email: "", phone: "", message: "" });
+    } catch {
+      setError("Błąd połączenia. Spróbuj ponownie za chwilę.");
+    } finally {
+      setSending(false);
+    }
   };
 
   const inputStyle = {
@@ -190,6 +216,19 @@ export default function ContactSection() {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+                  {error && (
+                    <div
+                      className="text-sm rounded-lg px-4 py-3"
+                      style={{
+                        background: "rgba(239,68,68,0.12)",
+                        border: "1px solid rgba(239,68,68,0.25)",
+                        color: "rgba(255,255,255,0.8)",
+                        fontFamily: "'Outfit', sans-serif",
+                      }}
+                    >
+                      {error}
+                    </div>
+                  )}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label
@@ -268,10 +307,11 @@ export default function ContactSection() {
 
                   <button
                     type="submit"
+                    disabled={sending}
                     className="btn-violet flex items-center justify-center gap-2 mt-2"
                     style={{ padding: "0.875rem 2rem" }}
                   >
-                    <span>Wyślij wiadomość</span>
+                    <span>{sending ? "Wysyłanie..." : "Wyślij wiadomość"}</span>
                     <Send size={16} />
                   </button>
 
